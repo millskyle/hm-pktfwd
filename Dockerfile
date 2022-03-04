@@ -45,6 +45,8 @@ ENV UTIL_CHIP_ID_FILEPATH="$SX1302_DIR/chip_id"
 # The sx1302_hal concentrator script requires reset_lgw to be in this location
 ENV RESET_LGW_FILEPATH="$ROOT_DIR/reset_lgw.sh"
 
+ENV CONCENTRATOR_RESET_PIN=12
+
 WORKDIR "$ROOT_DIR"
 
 # Copy python app

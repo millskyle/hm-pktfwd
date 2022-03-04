@@ -1,6 +1,8 @@
 # hm-pktfwd
 Helium Miner Packet Forwarder
 
+This is a port of the Nebra Packet Forwarder for use on the RisingHF miner. This packet forwarder seems to be much more reliable than the stock one on the RHF2S308.
+
 This is a Python app that uses prebuilt utilities to detect the correct concentrator chip and region, then start the concentrator accordingly.
 
 hm-pktfwd builds off three other repos which each built a portion of the code required to run the packet forwarder.
